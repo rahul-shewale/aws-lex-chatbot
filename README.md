@@ -48,6 +48,8 @@ sample utterances a user might ask. They will help our chatbot to learn about us
 
 ![utterances](utterances.png)
 
+### Slots
+
 ![slots](slots.png)
 
 In the Slots section, let’s add our City slot. We can define the Prompt message together with that. Our bot can use the intent to get the City slot filled from the user if it didn’t receive it already from the user’s initial utterance.
