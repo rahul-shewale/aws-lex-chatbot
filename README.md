@@ -38,12 +38,12 @@ Conversational bot that finds weather information as per user’s requests. Foll
 
 Intents are the intentions why someone would use the bot. In our example, someone might want to know the weather of a particular city in the world. We will have an intent called “FindWeather”. We can have more than one intents for the bot. Another intent would be “GreetUser”.
 
-*Creating Intents*
+### Creating Intents
 Click “Create Intent” button to create the first intent for WeatherBot.Call it “FindWeather” and Add it.
 
 ![intents](intents.png)
 
-*Utterances*
+### Utterances
 sample utterances a user might ask. They will help our chatbot to learn about user inputs.
 
 ![utterances](utterances.png)
@@ -56,7 +56,7 @@ Our bot requires only one variable to search for the weather. That is the City. 
 
 In our case, let’s call a Lambda function that talks to OpenWeather API to search the weather for the requested City.
 
-*Creating the Lambda Function*
+### Creating the Lambda Function
 Let’s use the Serverless Framework to create our lambda function.
 Once we have installed the serverless framework and configure credentials with your AWS account, create a serverless service using below command.
 
@@ -68,16 +68,17 @@ We are using openweathermap API in this project.
 
 We have obtained a free API key from https://openweathermap.org/api and added it as a query parameter(APPID) in the URL. We extracted the “City” slot value that was taken by the user and passed it in the URL as well. “units” parameter is set to “metric” in order to get temperature values in Celsius.
 
-*Deploying bot*
+### Deploying bot
 ```serverless deploy
 ```
-*Testing our bot*
 
-![bot-lex] (bot-lex.jpg)
+### Testing our bot
 
-*UI for Bot*
+![bot-lex](bot-lex.jpg)
 
-![bot-ui] (bot-ui.jpg)
+### UI for Bot
+
+![bot-ui](bot-ui.jpg)
 
 *Test bot at given link*
 [test bot](www.google.com)
