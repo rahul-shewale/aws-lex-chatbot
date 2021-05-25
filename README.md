@@ -62,7 +62,9 @@ In our case, let’s call a Lambda function that talks to OpenWeather API to sea
 Let’s use the Serverless Framework to create our lambda function.
 Once we have installed the serverless framework and configure credentials with your AWS account, create a serverless service using below command.
 
-```serverless create --template aws-nodejs --path weather-bot
+```
+serverless create --template aws-nodejs --path weather-bot
+
 ```
 creating lambada function so it can call API and getch wether info from API and pass it to the lex.
 
