@@ -69,7 +69,9 @@ We are using openweathermap API in this project.
 We have obtained a free API key from https://openweathermap.org/api and added it as a query parameter(APPID) in the URL. We extracted the “City” slot value that was taken by the user and passed it in the URL as well. “units” parameter is set to “metric” in order to get temperature values in Celsius.
 
 ### Deploying bot
-```serverless deploy
+```
+serverless deploy
+
 ```
 
 ### Testing our bot
