@@ -10,13 +10,17 @@ Conversational bot that finds weather information as per user’s requests. Foll
 
 1. Amazon Lex
 
-2. AWS Lambada
+2. AWS S3
 
-3. AWS IAM
+3. AWS Lambada
 
-4. AWS CloudWatch
+4. AWS IAM
 
-5. OPEN WETHER API
+5. AWS CloudWatch
+
+6. AWS CloudFormation
+
+7. OPEN WETHER API
 
 
 ### Architecture
